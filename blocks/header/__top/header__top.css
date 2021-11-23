@@ -1,4 +1,17 @@
 .header__top {
+
+
+}
+
+.navbar {
     min-height: 87px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
     padding: 62px 3% 0 3%;
+}
+
+.navbar_scroll {
+    padding-top: 0;
+    background: #FFFFFF;
 }

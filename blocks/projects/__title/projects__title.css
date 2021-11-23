@@ -1,0 +1,11 @@
+.projects__title {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #131217;
+    margin: 0;
+}

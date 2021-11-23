@@ -9,3 +9,14 @@
     color: #CCCBC6;
     text-decoration: none;
 }
+
+.header__menu-item-link:hover {
+    color: #8F6B2D;
+}
+
+
+.header__menu-item-link_scroll {
+    font-size: 12px;
+    line-height: 14px;
+    color: #131217;
+}

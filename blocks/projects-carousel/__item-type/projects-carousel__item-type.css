@@ -1,0 +1,11 @@
+.projects-carousel__item-type {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 128%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #131217;
+    margin: 0 4px 0 0;
+}

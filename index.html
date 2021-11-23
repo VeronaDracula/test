@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="./pages/index.css">
     <title>Studiokora</title>
 </head>
@@ -14,13 +16,12 @@
 
         <nav class="navbar navbar-expand-xl fixed-top">
             <div class="header__top container-fluid">
-                <img class="header__logo" src="images/logo-2.svg" alt="logo">
+                <img class="header__logo" src="./images/logo-2.svg" alt="logo">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
                     <ul class="navbar-nav header__menu">
                         <li class="header__menu-item"><a class="header__menu-item-link" href="#">о компании</a></li>
                         <li class="header__menu-item"><a class="header__menu-item-link" href="#">архитектура</a></li>
@@ -43,7 +44,53 @@
     </header>
 
     <main class="content">
+        <section class="projects">
+            <div class="projects__content container-fluid">
+                <h2 class="projects__title">проекты</h2>
+                <hr class="projects__line">
 
+                <div class="projects__carousel container-fluid">
+
+                    <button class="carousel-arrow carousel-arrow_type_left"><img src="./images/arrow-left.svg" alt=""></button>
+
+                    <div class="owl-carousel projects-carousel">
+                        <div class="projects-carousel__item">
+                            <img class="projects-carousel__item-img" src="./images/project-img.jpg" alt="">
+                            <div class="projects-carousel__item-text">
+                                <div class="projects-carousel__item-info">
+                                    <p class="projects-carousel__item-type">Архитектура</p>
+                                    <p class="projects-carousel__item-size">300 м</p>
+                                </div>
+                                <h3 class="projects-carousel__item-title">Вилла Валентина</h3>
+                            </div>
+                        </div>
+                       <div class="projects-carousel__item">
+                            <img class="projects-carousel__item-img" src="./images/project-img.jpg" alt="">
+                           <div class="projects-carousel__item-text">
+                               <div class="projects-carousel__item-info">
+                                   <p class="projects-carousel__item-type">Архитектура</p>
+                                   <p class="projects-carousel__item-size">300 м</p>
+                               </div>
+                               <h3 class="projects-carousel__item-title">Вилла Валентина</h3>
+                           </div>
+                        </div>
+                        <div class="projects-carousel__item">
+                            <img class="projects-carousel__item-img" src="./images/project-img.jpg" alt="">
+                            <div class="projects-carousel__item-text">
+                                <div class="projects-carousel__item-info">
+                                    <p class="projects-carousel__item-type">Архитектура</p>
+                                    <p class="projects-carousel__item-size">300 м</p>
+                                </div>
+                                <h3 class="projects-carousel__item-title">Вилла Валентина</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-arrow carousel-arrow_type_right"><img src="./images/arrow-right.svg" alt=""></button>
+
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
@@ -52,7 +99,9 @@
 </div>
 <script type="text/javascript" src="./vendor/js/jquery-3.5.1.js"></script>
 <script type="text/javascript" src="./vendor/bootstrap/bootstrap.min.js"></script>
+<script src="./vendor/owlcarousel/owl.carousel.min.js"></script>
 
 <script type="text/javascript" src="./pages/index.js"></script>
+<script type="text/javascript" src="./scripts/jquery-file.js"></script>
 </body>
 </html>

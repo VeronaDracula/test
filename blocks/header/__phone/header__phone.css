@@ -9,3 +9,9 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+.header__phone_scroll {
+    font-size: 15px;
+    line-height: 18px;
+    color: #131217;
+}

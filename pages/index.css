@@ -3,6 +3,8 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/display-none/display-none.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__top/header__top.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -16,4 +18,24 @@
 @import url(../blocks/header/__content-line/header__content-line.css);
 
 @import url(../blocks/navbar-collapse/navbar-collapse.css);
+
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__line/projects__line.css);
+@import url(../blocks/projects/__content/projects__content.css);
+@import url(../blocks/projects/__carousel/projects__carousel.css);
+
+@import url(../blocks/carousel-arrow/carousel-arrow.css);
+@import url(../blocks/carousel-arrow/_type/carousel-arrow_type_left.css);
+@import url(../blocks/carousel-arrow/_type/carousel-arrow_type_right.css);
+
+@import url(../blocks/projects-carousel/projects-carousel.css);
+@import url(../blocks/projects-carousel/__item/projects-carousel__item.css);
+@import url(../blocks/projects-carousel/__item-img/projects-carousel__item-img.css);
+@import url(../blocks/projects-carousel/__item-info/projects-carousel__item-info.css);
+@import url(../blocks/projects-carousel/__item-type/projects-carousel__item-type.css);
+@import url(../blocks/projects-carousel/__item-size/projects-carousel__item-size.css);
+@import url(../blocks/projects-carousel/__item-title/projects-carousel__item-title.css);
+
+
 
