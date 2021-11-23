@@ -1,0 +1,11 @@
+.header__menu-item-link {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #CCCBC6;
+    text-decoration: none;
+}

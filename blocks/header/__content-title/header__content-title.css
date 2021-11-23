@@ -1,0 +1,12 @@
+.header__content-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    color: #DBD8D1;
+    margin: 0;
+}
