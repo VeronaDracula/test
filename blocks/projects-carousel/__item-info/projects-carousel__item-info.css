@@ -2,3 +2,10 @@
     display: flex;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 576px) {
+    .projects-carousel__item-info {
+        order: 2;
+        margin: 0;
+    }
+}

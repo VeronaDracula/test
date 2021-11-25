@@ -5,3 +5,9 @@
     margin: 27px 0 19px 0;
     opacity: 1;
 }
+
+@media screen and (max-width: 576px) {
+    .header__content-line {
+        margin: 17px 0 14px 0;
+    }
+}

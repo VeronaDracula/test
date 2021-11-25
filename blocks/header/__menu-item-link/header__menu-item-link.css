@@ -14,9 +14,30 @@
     color: #8F6B2D;
 }
 
+@media screen and (max-width: 1520px){
+    .header__menu-item-link {
+        font-size: 13px;
+    }
+}
 
-.header__menu-item-link_scroll {
-    font-size: 12px;
-    line-height: 14px;
-    color: #131217;
+@media screen and (max-width: 1360px){
+    .header__menu-item-link {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1070px){
+    .header__menu-item-link {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .header__menu-item-link {
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 2px;
+        color: #757470;
+    }
+
 }

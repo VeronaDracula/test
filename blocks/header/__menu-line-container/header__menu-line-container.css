@@ -1,0 +1,11 @@
+.header__menu-line-container {
+    position: absolute;
+    padding: 86px 4% 0 4%;
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .header__menu-line-container {
+        display: block;
+    }
+}

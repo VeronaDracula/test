@@ -1,0 +1,9 @@
+.header__mobile-info {
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .header__mobile-info {
+        display: block;
+    }
+}

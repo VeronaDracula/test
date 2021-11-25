@@ -1,0 +1,12 @@
+.projects-carousel__item-text {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 576px) {
+    .projects-carousel__item-text {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -1,0 +1,7 @@
+@media screen and (max-width: 992px) {
+    .header__navbar-container {
+        display: flex;
+        justify-content: flex-end;
+        flex-flow: wrap;
+    }
+}

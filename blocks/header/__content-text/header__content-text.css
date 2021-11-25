@@ -10,3 +10,11 @@
     text-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     margin: 0 0 48px 0;
 }
+
+@media screen and (max-width: 576px) {
+    .header__content-text {
+        font-size: 12px;
+        line-height: 14px;
+        margin: 0 0 36px 0;
+    }
+}

@@ -1,0 +1,8 @@
+.header__menu-line {
+    height: 1px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    opacity: 1;
+    margin: 0;
+}
+

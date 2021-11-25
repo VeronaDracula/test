@@ -13,9 +13,12 @@
 <body>
 <div class="page">
     <header class="header">
+        <div class="container-fluid header__menu-line-container">
+            <hr class="header__menu-line">
+        </div>
 
-        <nav class="navbar navbar-expand-xl fixed-top">
-            <div class="header__top container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid header__navbar-container">
                 <img class="header__logo" src="./images/logo-2.svg" alt="logo">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,9 +33,22 @@
                         <li class="header__menu-item"><a class="header__menu-item-link" href="#">сотрудничество</a></li>
                         <li class="header__menu-item"><a class="header__menu-item-link" href="#">контакты</a></li>
                     </ul>
+                    <div class="header__mobile-info">
+                        <p class="header__address">Санкт-петербург, ул. зверинская 33, офис 13</p>
+                        <ul class="header__social">
+                            <li class="header__social-item"><a class="header__social-link" href="#">
+                                <img class="header__social-img" src="./images/facebook.svg" alt="facebook"></a></li>
+                            <li class="header__social-item"><a class="header__social-link" href="#">
+                                <img class="header__social-img" src="./images/youtube-icon.svg" alt="youtube"></a></li>
+                            <li class="header__social-item"><a class="header__social-link" href="#">
+                                <img class="header__social-img" src="./images/instagram-icon.svg" alt="instagram"></a></li>
+                        </ul>
+                    </div>
                 </div>
                 <p class="header__phone">+7 (812) 645 98 10</p>
+                <button class="header__phone-icon"></button>
             </div>
+
         </nav>
 
         <div class="header__content">
@@ -51,7 +67,8 @@
 
                 <div class="projects__carousel container-fluid">
 
-                    <button class="carousel-arrow carousel-arrow_type_left"><img src="./images/arrow-left.svg" alt=""></button>
+                    <button class="carousel-arrow carousel-arrow_type_left"></button>
+                    <button class="carousel-arrow-mobile carousel-arrow-mobile_type_left"></button>
 
                     <div class="owl-carousel projects-carousel">
                         <div class="projects-carousel__item">
@@ -59,7 +76,7 @@
                             <div class="projects-carousel__item-text">
                                 <div class="projects-carousel__item-info">
                                     <p class="projects-carousel__item-type">Архитектура</p>
-                                    <p class="projects-carousel__item-size">300 м</p>
+                                    <p class="projects-carousel__item-size">300 м<sup>2</sup></p>
                                 </div>
                                 <h3 class="projects-carousel__item-title">Вилла Валентина</h3>
                             </div>
@@ -69,7 +86,7 @@
                            <div class="projects-carousel__item-text">
                                <div class="projects-carousel__item-info">
                                    <p class="projects-carousel__item-type">Архитектура</p>
-                                   <p class="projects-carousel__item-size">300 м</p>
+                                   <p class="projects-carousel__item-size">300 м<sup>2</sup></p>
                                </div>
                                <h3 class="projects-carousel__item-title">Вилла Валентина</h3>
                            </div>
@@ -79,14 +96,15 @@
                             <div class="projects-carousel__item-text">
                                 <div class="projects-carousel__item-info">
                                     <p class="projects-carousel__item-type">Архитектура</p>
-                                    <p class="projects-carousel__item-size">300 м</p>
+                                    <p class="projects-carousel__item-size">300 м<sup>2</sup></p>
                                 </div>
                                 <h3 class="projects-carousel__item-title">Вилла Валентина</h3>
                             </div>
                         </div>
                     </div>
 
-                    <button class="carousel-arrow carousel-arrow_type_right"><img src="./images/arrow-right.svg" alt=""></button>
+                    <button class="carousel-arrow carousel-arrow_type_right"></button>
+                    <button class="carousel-arrow-mobile carousel-arrow-mobile_type_right"></button>
 
                 </div>
             </div>

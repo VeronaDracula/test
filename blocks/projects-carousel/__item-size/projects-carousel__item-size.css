@@ -9,3 +9,9 @@
     color: #BF9C62;
     margin: 0;
 }
+
+@media screen and (max-width: 576px) {
+    .projects-carousel__item-size {
+        font-size: 10px;
+    }
+}

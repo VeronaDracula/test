@@ -5,3 +5,9 @@
     display: flex;
 }
 
+@media screen and (max-width: 991px){
+    .header__menu {
+        padding: 50px 0 50px 0;
+    }
+}
+

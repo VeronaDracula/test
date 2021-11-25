@@ -1,0 +1,15 @@
+.carousel-arrow-mobile {
+    position: absolute;
+    top: 35%;
+    z-index: 10;
+    display: none;
+    width: 34px;
+    height: 34px;
+    border: none;
+}
+
+@media screen and (max-width: 576px){
+    .carousel-arrow-mobile {
+        display: block;
+    }
+}
