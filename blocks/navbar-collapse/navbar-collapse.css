@@ -2,7 +2,7 @@
     flex-grow: 0!important;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 991px){
     .navbar-collapse {
         order: 5;
         background: #E5E5E5;
