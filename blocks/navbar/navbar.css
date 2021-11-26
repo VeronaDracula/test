@@ -4,7 +4,6 @@
     align-items: center;
     box-sizing: border-box;
     padding: 62px 3% 0 3%;
-    position: absolute;
 }
 
 @media screen and (max-width: 576px) {

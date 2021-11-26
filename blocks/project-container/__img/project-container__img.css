@@ -1,0 +1,5 @@
+.project-container__img {
+    max-height: 625px;
+    object-fit: cover;
+    width: 100%;
+}

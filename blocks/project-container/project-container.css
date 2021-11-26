@@ -1,0 +1,12 @@
+.project-container {
+    padding: 196px 20px 45px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-container__content {
+    display: grid;
+    grid-template-columns: minmax(280px, 874px);
+    justify-items: center;
+}

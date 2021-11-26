@@ -1,0 +1,14 @@
+.header__phone-search-button {
+    background: transparent 50% no-repeat url("../../../images/search.svg");
+    width: 16px;
+    height: 16px;
+    border: none;
+    margin-right: 20px;
+    display: block;
+}
+
+@media screen and (max-width: 992px) {
+    .header__phone-search-button {
+        display: none;
+    }
+}

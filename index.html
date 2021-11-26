@@ -71,36 +71,8 @@
                     <button class="carousel-arrow-mobile carousel-arrow-mobile_type_left"></button>
 
                     <div class="owl-carousel projects-carousel">
-                        <div class="projects-carousel__item">
-                            <img class="projects-carousel__item-img" src="./images/project-img.jpg" alt="">
-                            <div class="projects-carousel__item-text">
-                                <div class="projects-carousel__item-info">
-                                    <p class="projects-carousel__item-type">Архитектура</p>
-                                    <p class="projects-carousel__item-size">300 м<sup>2</sup></p>
-                                </div>
-                                <h3 class="projects-carousel__item-title">Вилла Валентина</h3>
-                            </div>
-                        </div>
-                       <div class="projects-carousel__item">
-                            <img class="projects-carousel__item-img" src="./images/project-img.jpg" alt="">
-                           <div class="projects-carousel__item-text">
-                               <div class="projects-carousel__item-info">
-                                   <p class="projects-carousel__item-type">Архитектура</p>
-                                   <p class="projects-carousel__item-size">300 м<sup>2</sup></p>
-                               </div>
-                               <h3 class="projects-carousel__item-title">Вилла Валентина</h3>
-                           </div>
-                        </div>
-                        <div class="projects-carousel__item">
-                            <img class="projects-carousel__item-img" src="./images/project-img.jpg" alt="">
-                            <div class="projects-carousel__item-text">
-                                <div class="projects-carousel__item-info">
-                                    <p class="projects-carousel__item-type">Архитектура</p>
-                                    <p class="projects-carousel__item-size">300 м<sup>2</sup></p>
-                                </div>
-                                <h3 class="projects-carousel__item-title">Вилла Валентина</h3>
-                            </div>
-                        </div>
+
+
                     </div>
 
                     <button class="carousel-arrow carousel-arrow_type_right"></button>
@@ -109,6 +81,25 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <template class="projects-carousel-template">
+                    <div class="projects-carousel__item">
+                        <a href="./pages/project.html" class="projects-carousel__link">
+                        <img class="projects-carousel__item-img" src="./images/project-img.jpg" alt="">
+                        <div class="projects-carousel__item-text">
+                            <div class="projects-carousel__item-info">
+                                <p class="projects-carousel__item-type">Архитектура</p>
+                                <p class="projects-carousel__item-size">300 м<sup>2</sup></p>
+                            </div>
+                            <p class="projects-carousel__item-article display-none"></p>
+                            <h3 class="projects-carousel__item-title"></h3>
+                        </div>
+                        </a>
+                    </div>
+            </template>
+        </section>
+
     </main>
 
     <footer class="footer">
@@ -119,7 +110,8 @@
 <script type="text/javascript" src="./vendor/bootstrap/bootstrap.min.js"></script>
 <script src="./vendor/owlcarousel/owl.carousel.min.js"></script>
 
-<script type="text/javascript" src="./pages/index.js"></script>
+<script type="module" src="./components/Card.js"></script>
+<script type="module" src="./pages/index.js"></script>
 <script type="text/javascript" src="./scripts/jquery-file.js"></script>
 </body>
 </html>

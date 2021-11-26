@@ -36,6 +36,7 @@ $(function() {
 
 });
 
+
 //меню
 $(window).scroll(function() {
     if ($(document).scrollTop() > window.innerHeight) {
@@ -49,4 +50,5 @@ $(window).scroll(function() {
         $(".header__phone").removeClass("header__phone_scroll");
         $(".header__logo").attr('src', './images/logo-2.svg');
     }
-});
+})
+

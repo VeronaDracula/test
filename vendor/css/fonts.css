@@ -32,16 +32,16 @@
 
 @font-face {
     font-family: 'Cormorant Garamond';
-    src: url(../../fonts/Cormorantgaramond.woff2) format('woff2'),
-         url(../../fonts/Cormorantgaramond.woff) format('woff');
+    src: url(../../fonts/CormorantGaramond-Regular.woff2) format('woff2'),
+         url(../../fonts/CormorantGaramond-Regular.woff) format('woff');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Cormorant Garamond';
-    src: url(../../fonts/Cormorantgaramondbook.woff2) format('woff2'),
-         url(../../fonts/Cormorantgaramondbook.woff) format('woff');
+    src: url(../../fonts/CormorantGaramond-SemiBold.woff2) format('woff2'),
+         url(../../fonts/CormorantGaramond-SemiBold.woff) format('woff');
     font-weight: 500;
     font-style: normal;
 }

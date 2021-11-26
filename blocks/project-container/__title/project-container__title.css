@@ -1,0 +1,12 @@
+.project-container__title {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 62px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    color: #131217;
+    margin: 0 0 32px 0;
+    text-align: center;
+}

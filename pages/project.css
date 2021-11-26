@@ -2,6 +2,7 @@
 @import url(../vendor/css/fonts.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/_page/page_page_project.css);
 
 @import url(../blocks/display-none/display-none.css);
 
@@ -29,36 +30,27 @@
 @import url(../blocks/header/__social-item/header__social-item.css);
 @import url(../blocks/header/__social-img/header__social-img.css);
 
+@import url(../blocks/header/_page/header_page_project.css);
+@import url(../blocks/header/__menu-item-link/_page/header__menu-item-link_page_project.css);
+@import url(../blocks/header/__phone-search-button/header__phone-search-button.css);
+@import url(../blocks/header/__phone-container/header__phone-container.css);
+@import url(../blocks/header/__phone-start/header__phone-start.css);
+@import url(../blocks/header/__phone/_page/header__phone_page_project.css);
+
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/_scroll/navbar_scroll.css);
 @import url(../blocks/navbar/_type/navbar_type_open-menu.css);
+@import url(../blocks/navbar/_page/navbar_page_project.css);
 
 @import url(../blocks/navbar-collapse/navbar-collapse.css);
 
 @import url(../blocks/navbar-toggler/navbar-toggler.css);
 @import url(../blocks/navbar-toggler/_type/navbar-toggler_type_open-menu.css);
 
-@import url(../blocks/projects/projects.css);
-@import url(../blocks/projects/__title/projects__title.css);
-@import url(../blocks/projects/__line/projects__line.css);
-@import url(../blocks/projects/__content/projects__content.css);
-@import url(../blocks/projects/__carousel/projects__carousel.css);
-
-@import url(../blocks/carousel-arrow/carousel-arrow.css);
-@import url(../blocks/carousel-arrow/_type/carousel-arrow_type_left.css);
-@import url(../blocks/carousel-arrow/_type/carousel-arrow_type_right.css);
-
-@import url(../blocks/carousel-arrow-mobile/carousel-arrow-mobile.css);
-@import url(../blocks/carousel-arrow-mobile/_type/carousel-arrow-mobile_type_left.css);
-@import url(../blocks/carousel-arrow-mobile/_type/carousel-arrow-mobile_type_right.css);
-
-@import url(../blocks/projects-carousel/projects-carousel.css);
-@import url(../blocks/projects-carousel/__link/projects-carousel__link.css);
-@import url(../blocks/projects-carousel/__item/projects-carousel__item.css);
-@import url(../blocks/projects-carousel/__item-img/projects-carousel__item-img.css);
-@import url(../blocks/projects-carousel/__item-info/projects-carousel__item-info.css);
-@import url(../blocks/projects-carousel/__item-type/projects-carousel__item-type.css);
-@import url(../blocks/projects-carousel/__item-size/projects-carousel__item-size.css);
-@import url(../blocks/projects-carousel/__item-title/projects-carousel__item-title.css);
-@import url(../blocks/projects-carousel/__item-text/projects-carousel__item-text.css);
-
+@import url(../blocks/project-container/project-container.css);
+@import url(../blocks/project-container/__filter/project-container__filter.css);
+@import url(../blocks/project-container/__filter-item/project-container__filter-item.css);
+@import url(../blocks/project-container/__line/project-container__line.css);
+@import url(../blocks/project-container/__title/project-container__title.css);
+@import url(../blocks/project-container/__text/project-container__text.css);
+@import url(../blocks/project-container/__img/project-container__img.css);
