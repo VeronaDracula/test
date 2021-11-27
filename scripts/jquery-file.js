@@ -2,40 +2,6 @@ $(document).ready(function(){
     $('.header').height($(window).height());
 })
 
-//карусель
-$(function() {
-    var owl=$(".projects-carousel");
-    owl.owlCarousel({
-        responsive:{
-            0:{
-                items: 1,
-                stagePadding: 0,
-            },
-            993: {
-                items: 1,
-                stagePadding: 180,
-            }
-        },
-
-        loop: true
-    });
-
-    $(".carousel-arrow_type_right").click(function(){
-        owl.trigger("next.owl.carousel");
-    });
-    $(".carousel-arrow_type_left").click(function(){
-        owl.trigger("prev.owl.carousel");
-    });
-
-    $(".carousel-arrow-mobile_type_right").click(function(){
-        owl.trigger("next.owl.carousel");
-    });
-    $(".carousel-arrow-mobile_type_left").click(function(){
-        owl.trigger("prev.owl.carousel");
-    });
-
-});
-
 
 //меню
 $(window).scroll(function() {
