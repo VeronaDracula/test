@@ -7,3 +7,10 @@
     color: #131217;
     margin: 0 0 10px 0;
 }
+
+@media screen and (max-width: 576px) {
+    .project-container__text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}

@@ -16,7 +16,6 @@ class Section {
     }
 }
 
-
 class Card {
     constructor(data, cardSelector, handleCardClick) {
         this._name = data.title;
@@ -34,7 +33,6 @@ class Card {
         return cardElement;
     }
 
-    //создание карточки
     generateCard() {
         this._element = this._getTemplate();
         this._setEventListeners();
@@ -46,7 +44,6 @@ class Card {
         return this._element
     }
 
-    //обработчик для кнопок внутри карточки
     _setEventListeners() {
         const cardLinkElement = this._element.querySelector('.projects-carousel__link');
         cardLinkElement.addEventListener('click', (event) => {
@@ -55,9 +52,7 @@ class Card {
     }
 }
 
-
 class Api {
-
     headers = {
         'Content-Type': 'application/json',
     }
@@ -77,14 +72,11 @@ class Api {
     }
 }
 
-
-
 //устанавливаем данные для страницы project
 function handleCardClick(name, text) {
     localStorage.setItem('articleProject', text);
     localStorage.setItem('titleProject', name);
 }
-
 
 //создание карточки
 function createCard (data, template, handleCardClick) {
@@ -125,14 +117,11 @@ function initializationCarousel () {
     });
 }
 
-
-
 const url = {
     url: 'https://jsonplaceholder.typicode.com/posts'
 }
 
 const api = new Api(url);
-
 
 api
     .getCards()
@@ -143,9 +132,7 @@ api
                 cardList.addItem(createCard(item, '.projects-carousel-template', handleCardClick));
             }
         }, '.projects-carousel');
-
         cardList.renderItems();
-
     })
     .catch(err => console.log(err))
     .finally(() => {

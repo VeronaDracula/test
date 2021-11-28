@@ -1,3 +1,5 @@
 .header__menu-line_type_open-menu {
-    background: rgba(20, 18, 21, 0.2);
+    background: rgba(20, 18, 21, 0.2);;
+    z-index: 2000;
+    position: relative;
 }

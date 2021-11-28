@@ -10,3 +10,11 @@
     margin: 0 0 32px 0;
     text-align: center;
 }
+
+@media screen and (max-width: 576px) {
+    .project-container__title {
+        font-size: 32px;
+        line-height: 39px;
+        margin: 0 0 25px 0;
+    }
+}
