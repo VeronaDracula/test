@@ -1,0 +1,10 @@
+.social__item {
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}

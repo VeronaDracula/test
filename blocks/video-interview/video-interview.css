@@ -1,0 +1,20 @@
+.video-interview {
+    width: 290px;
+    height: 74px;
+    border: 1px solid #E7EEF6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.video-interview:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

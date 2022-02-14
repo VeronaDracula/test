@@ -1,4 +1,8 @@
 .content {
-    display: grid;
-    grid-template-columns: minmax(min-content, max-content)
+    /*display: grid;*/
+    /*grid-template-columns: minmax(300px, 710px) minmax(250px, 290px);*/
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }

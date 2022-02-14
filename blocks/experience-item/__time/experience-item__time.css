@@ -1,0 +1,5 @@
+.experience-item__time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}

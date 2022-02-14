@@ -1,0 +1,7 @@
+.experience-item__list-box {
+    margin-bottom: 12px;
+}
+
+.experience-item__list-box:last-child {
+    margin-bottom: 0;
+}
