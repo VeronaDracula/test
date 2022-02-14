@@ -1,9 +1,0 @@
-.header__menu-item-link_page_project {
-    color: #757470;
-}
-
-@media screen and (max-width: 1075px) and (min-width: 992px) {
-    .header__menu-item-link_page_project {
-        font-size: 10px;
-    }
-}

@@ -1,9 +1,0 @@
-.projects-carousel__item {
-    margin: 0 57px 0 57px;
-}
-
-@media screen and (max-width: 992px){
-    .projects-carousel__item {
-        margin: 0;
-    }
-}

@@ -1,47 +1,17 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url(../../fonts/Robotolight.woff2) format('woff2'),
-         url(../../fonts/Robotolight.woff) format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url(../../fonts/Roboto.woff2) format('woff2'),
-         url(../../fonts/Roboto.woff) format('woff');
+    src: url(../../fonts/Inter-Regular.woff);
+    font-family: 'Inter';
     font-weight: 400;
-    font-style: normal;
 }
 
 @font-face {
-    font-family: 'PT Sans';
-    src: url(../../fonts/ptsans.woff2) format('woff2'),
-         url(../../fonts/ptsans.woff) format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PT Sans';
-    src: url(../../fonts/ptsansbold.woff2) format('woff2'),
-         url(../../fonts/ptsansbold.woff) format('woff');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Cormorant Garamond';
-    src: url(../../fonts/CormorantGaramond-Regular.woff2) format('woff2'),
-         url(../../fonts/CormorantGaramond-Regular.woff) format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Cormorant Garamond';
-    src: url(../../fonts/CormorantGaramond-SemiBold.woff2) format('woff2'),
-         url(../../fonts/CormorantGaramond-SemiBold.woff) format('woff');
+    src: url(../../fonts/Inter-Medium.woff);
+    font-family: 'Inter';
     font-weight: 500;
-    font-style: normal;
+}
+
+@font-face {
+    src: url(../../fonts/Inter-SemiBold.woff);
+    font-family: 'Inter';
+    font-weight: 600;
 }
