@@ -1,0 +1,19 @@
+.offer__list-item {
+    margin: 0;
+    padding: 9px 8px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #1B1C1E;
+
+    display: flex;
+    align-items: center;
+}
+
+.offer__list-item:hover {
+    background: #F5F7F8;
+    border-radius: 4px;
+    cursor: pointer;
+}

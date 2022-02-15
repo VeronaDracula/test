@@ -72,6 +72,9 @@
 @import url(../blocks/offer/__menu-icon/_active/offer__menu-icon_active.css);
 @import url(../blocks/offer/__like/offer__like.css);
 @import url(../blocks/offer/__like/_active/offer__like_active.css);
+@import url(../blocks/offer/__list/offer__list.css);
+@import url(../blocks/offer/__list-item/offer__list-item.css);
+@import url(../blocks/offer/__list-item-img/offer__list-item-img.css);
 
 @import url(../blocks/video-interview/video-interview.css);
 @import url(../blocks/video-interview/__icon/video-interview__icon.css);

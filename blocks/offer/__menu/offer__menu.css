@@ -22,3 +22,8 @@
     background: #FF9316;
     cursor: pointer;
 }
+
+.offer__menu:hover ~ .offer__list {
+    display: block;
+    cursor: pointer;
+}

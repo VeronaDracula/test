@@ -1,4 +1,5 @@
 .offer {
     display: flex;
     margin-bottom: 16px;
+    position: relative;
 }

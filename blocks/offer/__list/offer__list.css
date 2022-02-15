@@ -1,0 +1,22 @@
+.offer__list {
+    padding: 8px;
+    margin: 0;
+    list-style: none;
+    width: 234px;
+
+    box-sizing: border-box;
+    box-shadow: 1px 4px 40px rgba(54, 94, 125, 0.1);
+    border-radius: 6px;
+    background: #FFFFFF;
+
+    display: none;
+    position: absolute;
+    z-index: 3;
+    top: 38px;
+}
+
+.offer__list:hover {
+    display: block;
+    cursor: pointer;
+}
+
