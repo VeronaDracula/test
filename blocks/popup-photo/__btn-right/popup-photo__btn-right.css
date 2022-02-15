@@ -1,0 +1,11 @@
+.popup-photo__btn-right {
+    background: transparent center no-repeat url("../../../images/arr-right.svg");
+    border: none;
+}
+
+
+.fancybox-navigation .fancybox-button--arrow_right {
+    padding: 0;
+    right: 29%;
+}
+

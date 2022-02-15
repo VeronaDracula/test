@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="./vendor/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./vendor/owlcarousel/owl.theme.default.min.css">
-
+    <link rel="stylesheet" href="./vendor/fancybox/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="./pages/index.css">
     <title>Test</title>
 </head>
@@ -149,12 +149,78 @@
                     <div class="title">
                         <h2 class="title__text">Портфолио</h2>
                     </div>
+
+                    <div class="owl-carousel portfolio__carousel">
+                        <div class="card">
+                            <a data-fancybox="images" data-src="#modal1" class="page__link">
+                                <img class="card__img" src="./images/img-1.jpg" alt="img-1">
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a data-fancybox="images" data-src="#modal2" class="btn button-little">
+                                <img class="card__img" src="./images/img-2.jpg" alt="img-2">
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a data-fancybox="images" data-src="#modal3" class="btn button-little">
+                                <img class="card__img" src="./images/img-3.jpg" alt="img-3">
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a data-fancybox="images" data-src="#modal4" class="btn button-little">
+                                <img class="card__img" src="./images/img-4.jpg" alt="img-4">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="modal-windows-carousel">
+                <div class="popup-photo" id="modal1">
+                    <img class="popup-photo__img" src="./images/img-1.jpg" alt="">
+                    <div class="popup-photo__text">
+                        <p class="popup-photo__title">Наклейки детские</p>
+                        <p class="popup-photo__subtitle">Наклейки детские</p>
+                        <p class="popup-photo__price">500 ₽</p>
+                    </div>
                 </div>
 
+                <div class="popup-photo" id="modal2">
+                    <img class="popup-photo__img" src="./images/img-2.jpg" alt="">
+                    <div class="popup-photo__text">
+                        <p class="popup-photo__title">Наклейки детские</p>
+                        <p class="popup-photo__subtitle">Наклейки детские</p>
+                        <p class="popup-photo__price">500 ₽</p>
+                    </div>
+                </div>
 
+                <div class="popup-photo" id="modal3">
+                    <img class="popup-photo__img" src="./images/img-3.jpg" alt="">
+                    <div class="popup-photo__text">
+                        <p class="popup-photo__title">Наклейки детские</p>
+                        <p class="popup-photo__subtitle">Наклейки детские</p>
+                        <p class="popup-photo__price">500 ₽</p>
+                    </div>
+                </div>
 
-
+                <div class="popup-photo" id="modal4">
+                    <img class="popup-photo__img" src="./images/img.jpg" alt="">
+                    <div class="popup-photo__text">
+                        <p class="popup-photo__title">Наклейки детские</p>
+                        <p class="popup-photo__subtitle">Наклейки детские</p>
+                        <p class="popup-photo__price">500 ₽</p>
+                    </div>
+                </div>
             </section>
+
+
+
+
+
 
             <section class="actions">
                 <div class="actions__header">
@@ -304,6 +370,10 @@
                     </form>
                 </div>
             </section>
+
+
+
+
         </main>
     </div>
 </div>
@@ -313,9 +383,9 @@
 <script src="./vendor/collapse/jquery.collapse.js "></script>
 <script src="./vendor/collapse/jquery.collapse_storage.js "></script>
 
+<script src="./vendor/fancybox/jquery.fancybox.min.js"></script>
+
 <script type="text/javascript" src="./scripts/plugins.js"></script>
 <script type="text/javascript" src="./pages/index.js"></script>
-
-
 </body>
 </html>

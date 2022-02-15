@@ -1,0 +1,26 @@
+.popup-photo {
+    display: none;
+    width: 630px;
+    height: 453px;
+    padding: 0;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.fancybox-content {
+    background: #FFFFFF;
+    padding: 0;
+    box-shadow: 1px 4px 40px rgba(54, 94, 125, 0.1);
+    border-radius: 16px;
+
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    position: relative;
+    overflow: visible;
+}
+
+.fancybox-bg{
+    background: rgba(229, 229, 229, 0.5);
+}

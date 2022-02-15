@@ -113,6 +113,27 @@
 @import url(../blocks/form/__button/_type/form__button_type_cancel.css);
 @import url(../blocks/form/__button/_type/form__button_type_save.css);
 
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__subtitle/card__subtitle.css);
+@import url(../blocks/card/__price/card__price.css);
+
+@import url(../blocks/popup-photo/popup-photo.css);
+@import url(../blocks/popup-photo/__btn-close/popup-photo__btn-close.css);
+@import url(../blocks/popup-photo/__btn-right/popup-photo__btn-right.css);
+@import url(../blocks/popup-photo/__btn-left/popup-photo__btn-left.css);
+@import url(../blocks/popup-photo/__img/popup-photo__img.css);
+@import url(../blocks/popup-photo/__text/popup-photo__text.css);
+@import url(../blocks/popup-photo/__title/popup-photo__title.css);
+@import url(../blocks/popup-photo/__subtitle/popup-photo__subtitle.css);
+@import url(../blocks/popup-photo/__price/popup-photo__price.css);
+
+
+
+
+
 
 
 

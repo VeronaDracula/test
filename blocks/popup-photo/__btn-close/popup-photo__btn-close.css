@@ -1,0 +1,20 @@
+.popup-photo__btn-close {
+    top: 0;
+    right: -36px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+
+    background: transparent center no-repeat url("../../../images/close.svg");
+    border: none;
+}
+
+.popup-photo__btn-close:focus {
+    border: none;
+    outline: none;
+}
+
+.popup-photo__btn-close:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
