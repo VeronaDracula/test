@@ -1,24 +1,15 @@
-jQuery(document).ready(function() {
-    //выпадающее меню
-    // jQuery('ul.sf-menu').superfish(
-    //     {
-    //         cssArrows: false,
-    //         delay: 0,
-    //         animation: {opacity:'show'},
-    //         speed: 100,
-    //     }
-    // );
+const historyImg = document.querySelector('.history__title-img');
+const history = document.querySelector('.history__title');
 
+history.addEventListener('click', () => {
+    if(historyImg.getAttribute('src') === './images/arr-close.svg') {
+        historyImg.setAttribute('src', './images/arr-open.svg');
+        history.classList.add('history__title_open');
+    }
 
-    //раскрывающиеся списки
-    $(".history").collapse({
-        open: function() {
-            this.slideDown(150);
-        },
-        close: function() {
-            this.slideUp(150);
-        }
-
-    });
+    else {
+        historyImg.setAttribute('src', './images/arr-close.svg');
+        history.classList.remove('history__title_open');
+    }
 
 });
