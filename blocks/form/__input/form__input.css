@@ -1,0 +1,16 @@
+.form__input {
+    width: 100%;
+    min-height: 178px;
+    background: #FFFFFF;
+    border: 1px solid #E7EEF6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    padding: 5px;
+    resize: none;
+}
+
+.form__input:focus {
+    border: 1px solid #606483;
+    outline: none;
+}

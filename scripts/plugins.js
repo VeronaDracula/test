@@ -1,15 +1,4 @@
 jQuery(document).ready(function() {
-    //выпадающее меню
-    // jQuery('ul.sf-menu').superfish(
-    //     {
-    //         cssArrows: false,
-    //         delay: 0,
-    //         animation: {opacity:'show'},
-    //         speed: 100,
-    //     }
-    // );
-
-
     //раскрывающийся список
     $(".history").collapse({
         open: function() {
@@ -18,7 +7,5 @@ jQuery(document).ready(function() {
         close: function() {
             this.slideUp(150);
         }
-
     });
-
 });
