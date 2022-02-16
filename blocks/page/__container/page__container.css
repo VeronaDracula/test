@@ -6,3 +6,18 @@
     border-radius: 16px;
     padding: 42px;
 }
+
+@media screen and (min-width: 1280px) {
+    .page__container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .page__container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+}

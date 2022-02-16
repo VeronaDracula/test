@@ -15,11 +15,17 @@ $(function() {
     var owl=$(".portfolio__carousel");
     owl.owlCarousel({
         loop: true,
-        // autoplay: true,
-        // center: true,
         margin: 10,
         responsive:{
             0: {
+                items: 2,
+                stagePadding: 20,
+            },
+            768: {
+                items: 4,
+                stagePadding: 50,
+            },
+            1260: {
                 items: 4,
                 stagePadding: 50,
             }
@@ -39,7 +45,7 @@ jQuery(document).ready(function($){
     $('[data-fancybox]').fancybox({
         buttons: false,
         loop: false,
-        infobar: false,
+        infobar: true,
         toolbar: false,
         animationEffect: "fade",
         animationDuration: 600,
@@ -49,10 +55,5 @@ jQuery(document).ready(function($){
             arrowLeft: '<button data-fancybox-prev class="fancybox-button fancybox-button--arrow_left popup-photo__btn-left"></button>'
         },
 
-
-    });
-
-    $(".close_window").click(function () {
-        $.fancybox.close();
     });
 });

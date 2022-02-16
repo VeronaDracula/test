@@ -18,3 +18,16 @@
     cursor: pointer;
     opacity: 0.7;
 }
+
+@media screen and (max-width: 768px) {
+    .video-interview {
+        border-radius: 0;
+        border: 0;
+        margin-bottom: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        height: 64px;
+        width: 345px;
+    }
+}

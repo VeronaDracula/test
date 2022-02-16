@@ -9,3 +9,19 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (min-width: 768px) and (max-width: 790px) {
+    .main-info__text-user {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-info__text-user {
+        font-size: 15px;
+        line-height: 20px;
+        color: #1B1C1E;
+        margin: 0 0 6px 0;
+    }
+}

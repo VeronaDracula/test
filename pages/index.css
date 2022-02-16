@@ -124,6 +124,7 @@
 @import url(../blocks/card/__subtitle/card__subtitle.css);
 @import url(../blocks/card/__price/card__price.css);
 
+@import url(../blocks/modal-windows-carousel/modal-windows-carousel.css);
 @import url(../blocks/popup-photo/popup-photo.css);
 @import url(../blocks/popup-photo/__btn-close/popup-photo__btn-close.css);
 @import url(../blocks/popup-photo/__btn-right/popup-photo__btn-right.css);
@@ -133,6 +134,19 @@
 @import url(../blocks/popup-photo/__title/popup-photo__title.css);
 @import url(../blocks/popup-photo/__subtitle/popup-photo__subtitle.css);
 @import url(../blocks/popup-photo/__price/popup-photo__price.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__back/header__back.css);
+
+@import url(../blocks/actions-list-desktop/actions-list-desktop.css);
+
+@import url(../blocks/mobile-block/mobile-block.css);
+@import url(../blocks/mobile-block/_type/mobile-block_type_buttons.css);
+
+@import url(../blocks/video-interview/__icon-text/video-interview__icon-text.css);
+@import url(../blocks/video-interview/__button/video-interview__button.css);
+@import url(../blocks/video-interview/__text/video-interview__text.css);
+@import url(../blocks/video-interview/__icon-text/video-interview__icon-text.css);
 
 
 

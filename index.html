@@ -14,14 +14,26 @@
 <div class="page">
     <div class="page__container">
         <header class="header">
+            <button class="header__back page__link"></button>
 
+            <ul class="actions-list">
+                <li class="actions-list__item"><a class="actions-list__item-link">
+                    <img class="actions-list__item-img" src="./images/file.svg" alt="файл"></a>
+                </li>
+                <li class="actions-list__item"><a class="actions-list__item-link">
+                    <img class="actions-list__item-img" src="./images/download.svg" alt="файл"></a>
+                </li>
+                <li class="actions-list__item"><a class="actions-list__item-link">
+                    <img class="actions-list__item-img" src="./images/print.svg" alt="файл"></a>
+                </li>
+            </ul>
         </header>
 
         <main class="content">
             <section class="info">
                 <div class="info__header">
                     <div class="main-info">
-                        <img class="main-info__photo" src="./images/avatar.png" alt="аватар">
+                        <img class="main-info__photo" src="./images/avatar-2.jpg" alt="аватар">
 
                         <div class="main-info__text">
                             <h1 class="main-info__text-name">Комкова Екатерина</h1>
@@ -38,18 +50,68 @@
                         </div>
                     </div>
 
-                    <ul class="actions-list">
-                        <li class="actions-list__item"><a class="actions-list__item-link">
-                            <img class="actions-list__item-img" src="./images/file.svg" alt="файл"></a>
-                        </li>
-                        <li class="actions-list__item"><a class="actions-list__item-link">
-                            <img class="actions-list__item-img" src="./images/download.svg" alt="файл"></a>
-                        </li>
-                        <li class="actions-list__item"><a class="actions-list__item-link">
-                            <img class="actions-list__item-img" src="./images/print.svg" alt="файл"></a>
-                        </li>
-                    </ul>
+                    <div class="actions-list-desktop">
+                        <ul class="actions-list">
+                            <li class="actions-list__item"><a class="actions-list__item-link">
+                                <img class="actions-list__item-img" src="./images/file.svg" alt="файл"></a>
+                            </li>
+                            <li class="actions-list__item"><a class="actions-list__item-link">
+                                <img class="actions-list__item-img" src="./images/download.svg" alt="файл"></a>
+                            </li>
+                            <li class="actions-list__item"><a class="actions-list__item-link">
+                                <img class="actions-list__item-img" src="./images/print.svg" alt="файл"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
+                <div class="mobile-block mobile-block_type_buttons">
+                    <div class="offer">
+                        <a class="offer__menu">Предложить вакансию<img class="offer__menu-icon" src="./images/check.svg" alt=""></a>
+                        <button class="offer__like"></button>
+
+                        <ul class="offer__list">
+                            <li class="offer__list-item">
+                                <img class="offer__list-item-img" src="./images/clock.svg" alt="icon-clock">
+                                Подумать
+                            </li>
+                            <li class="offer__list-item">
+                                <img class="offer__list-item-img" src="./images/videoInt.svg" alt="icon-videoInt">
+                                Видеособеседование
+                            </li>
+                            <li class="offer__list-item">
+                                <img class="offer__list-item-img" src="./images/office.svg" alt="icon-office">
+                                Интервью в офисе
+                            </li>
+                            <li class="offer__list-item">
+                                <img class="offer__list-item-img" src="./images/phone-1.svg" alt="icon-phone">
+                                Телефонное интервью
+                            </li>
+                            <li class="offer__list-item">
+                                <img class="offer__list-item-img" src="./images/test.svg" alt="icon-test">
+                                Тестовое задание
+                            </li>
+                            <li class="offer__list-item">
+                                <img class="offer__list-item-img" src="./images/offer.svg" alt="icon-offer">
+                                Предложение о работе
+                            </li>
+                            <li class="offer__list-item">
+                                <img class="offer__list-item-img" src="./images/work.svg" alt="icon-work">
+                                Выход на работу
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="video-interview">
+                        <div class="video-interview__icon-text">
+                            <img class="video-interview__icon" src="./images/video.svg" alt="иконка">
+                            <div class="video-interview__text">
+                                <p class="video-interview__title">Видеособеседование</p>
+                                <p class="video-interview__subtitle">Пригласите кандидата пройти собеседование онлайн</p>
+                            </div>
+                        </div>
+                        <div class="video-interview__button page__link"></div>
+                    </div>
                 </div>
 
                 <div class="job-preferences">
@@ -266,11 +328,6 @@
                     </div>
                 </div>
             </section>
-
-
-
-
-
 
             <section class="actions">
                 <div class="actions__header">

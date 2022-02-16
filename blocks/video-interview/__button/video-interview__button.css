@@ -1,0 +1,6 @@
+.video-interview__button {
+    width: 42px;
+    height: 42px;
+    background: transparent center no-repeat url("../../../images/arrowdown.svg");
+    border: none;
+}

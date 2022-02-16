@@ -1,8 +1,17 @@
 .content {
-    /*display: grid;*/
-    /*grid-template-columns: minmax(300px, 710px) minmax(250px, 290px);*/
-
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(300px, 710px) minmax(250px, 290px);
+    grid-gap: 10px;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: start;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }

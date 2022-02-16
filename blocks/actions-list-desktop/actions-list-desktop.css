@@ -1,0 +1,9 @@
+.actions-list-desktop {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .actions-list-desktop {
+        display: none;
+    }
+}

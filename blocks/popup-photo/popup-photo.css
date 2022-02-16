@@ -24,3 +24,17 @@
 .fancybox-bg{
     background: rgba(229, 229, 229, 0.5);
 }
+
+
+
+@media screen and (min-width: 1025px) {
+    .fancybox-infobar {
+        display: none;
+    }
+}
+
+.fancybox-infobar {
+    visibility: visible;
+    opacity: 1;
+    transition: none;
+}
