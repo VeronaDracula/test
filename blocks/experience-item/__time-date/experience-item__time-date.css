@@ -6,3 +6,12 @@
     color: #1E1D2E;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .experience-item__time-date {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #232056;
+    }
+}

@@ -6,3 +6,12 @@
     color: #232056;
     text-transform: none;
 }
+
+@media screen and (max-width: 768px) {
+    .title__text-time {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #1B1C1E;
+    }
+}

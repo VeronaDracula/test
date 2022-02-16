@@ -6,3 +6,10 @@
     color: #1E1D2E;
     margin: 0 0 8px 0;
 }
+
+@media screen and (max-width: 768px) {
+    .job-preferences__name {
+        color: #232056;
+        margin: 0 0 12px 0;
+    }
+}

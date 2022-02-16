@@ -17,7 +17,13 @@
     .page__container {
         max-width: 100%;
         margin: 0;
-        padding: 0;
+        padding: 15px;
         border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page__container {
+        padding: 0;
     }
 }

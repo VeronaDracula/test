@@ -2,3 +2,10 @@
     border-bottom: 1px solid #D8DEEB;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .title {
+        margin-bottom: 28px;
+        text-align: center;
+    }
+}

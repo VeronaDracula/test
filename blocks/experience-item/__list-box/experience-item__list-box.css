@@ -5,3 +5,9 @@
 .experience-item__list-box:last-child {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .experience-item__list-box {
+        margin-bottom: 16px;
+    }
+}

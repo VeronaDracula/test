@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+    .job-preferences__time_type_desktop {
+        display: none;
+    }
+}

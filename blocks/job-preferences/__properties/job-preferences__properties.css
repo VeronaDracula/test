@@ -6,3 +6,11 @@
     color: #1E1D2E;
     margin: 0 0 6px 0;
 }
+
+@media screen and (max-width: 768px) {
+    .job-preferences__properties {
+        font-weight: normal;
+        font-size: 18px;
+        color: #232056;
+    }
+}

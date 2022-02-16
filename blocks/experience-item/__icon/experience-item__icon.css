@@ -1,4 +1,9 @@
 .experience-item__icon {
     margin-right: 8px;
+}
 
+@media screen and (max-width: 768px) {
+    .experience-item__icon {
+        display: none;
+    }
 }

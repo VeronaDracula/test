@@ -8,6 +8,7 @@
 @import url(../blocks/display-none/display-none.css);
 
 @import url(../blocks/title/title.css);
+@import url(../blocks/title/_type/title_type_portfolio.css);
 @import url(../blocks/title/__text/title__text.css);
 @import url(../blocks/title/__text-time/title__text-time.css);
 
@@ -56,6 +57,7 @@
 
 @import url(../blocks/experience-item/__list-box/experience-item__list-box.css);
 @import url(../blocks/experience-item/__list-title/experience-item__list-title.css);
+@import url(../blocks/experience-item/__list-title/_type/experience-item__list-title_type_first.css);
 @import url(../blocks/experience-item/__list/experience-item__list.css);
 @import url(../blocks/experience-item/__list-item/experience-item__list-item.css);
 @import url(../blocks/experience-item/__list-link/experience-item__list-link.css);
@@ -146,7 +148,12 @@
 @import url(../blocks/video-interview/__icon-text/video-interview__icon-text.css);
 @import url(../blocks/video-interview/__button/video-interview__button.css);
 @import url(../blocks/video-interview/__text/video-interview__text.css);
-@import url(../blocks/video-interview/__icon-text/video-interview__icon-text.css);
+
+@import url(../blocks/job-preferences/__time/_type/job-preferences__time_type_desktop.css);
+@import url(../blocks/job-preferences/__time-list/job-preferences__time-list.css);
+@import url(../blocks/job-preferences/__time-list-item/job-preferences__time-list-item.css);
+@import url(../blocks/job-preferences/__time-list-answer/job-preferences__time-list-answer.css);
+
 
 
 

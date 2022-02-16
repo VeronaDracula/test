@@ -6,3 +6,10 @@
     color: #606483;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .experience-item__time-total-time {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

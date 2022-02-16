@@ -8,3 +8,12 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+    .experience-item__firm-name {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #232056;
+    }
+}

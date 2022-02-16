@@ -7,3 +7,13 @@
     color: #232056;
     margin: 0 0 10px 0;
 }
+
+@media screen and (max-width: 768px) {
+    .title__text {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #1B1C1E;
+        text-transform: none;
+    }
+}

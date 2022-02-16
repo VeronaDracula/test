@@ -1,4 +1,9 @@
 .experience-item__firm {
     margin-bottom: 12px;
+}
 
+@media screen and (max-width: 768px) {
+    .experience-item__firm {
+        margin-bottom: 16px;
+    }
 }
