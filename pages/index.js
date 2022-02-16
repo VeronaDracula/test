@@ -2,8 +2,13 @@
 const historyImg = document.querySelector('.history__title-img');
 const history = document.querySelector('.history__title');
 //лайк
-const likeButton = document.querySelector('.offer__like');
-const offerButtonCheck = document.querySelector('.offer__menu-icon');
+const likeButtonDesktop = document.querySelector('.offer__like_type_desktop');
+const likeButtonMobileTop = document.querySelector('.offer__like_type_mobile-top');
+const likeButtonMobileFooter = document.querySelector('.offer__like_type_mobile-footer');
+
+const offerButtonCheckDesktop = document.querySelector('.offer__menu-icon_type_desktop');
+const offerButtonCheckMobileTop = document.querySelector('.offer__menu-icon_type_mobile-top');
+const offerButtonCheckMobileFooter = document.querySelector('.offer__menu-icon_type_mobile-footer');
 //закрытие и открытие попапов
 const popupNotes = document.querySelector('.popup_type_notes');
 const popupNotesOpenButton = document.querySelector('.actions-list__item-link');
@@ -25,10 +30,21 @@ history.addEventListener('click', () => {
 
 
 //лайк
-likeButton.addEventListener('click', () => {
-    likeButton.classList.toggle('offer__like_active');
-    offerButtonCheck.classList.toggle('offer__menu-icon_active');
-});
+function addLikesAll () {
+    likeButtonDesktop.classList.toggle('offer__like_active');
+    likeButtonMobileTop.classList.toggle('offer__like_active');
+    likeButtonMobileFooter.classList.toggle('offer__like_active');
+
+    offerButtonCheckDesktop.classList.toggle('offer__menu-icon_active');
+    offerButtonCheckMobileTop.classList.toggle('offer__menu-icon_active');
+    offerButtonCheckMobileFooter.classList.toggle('offer__menu-icon_active');
+}
+
+likeButtonDesktop.addEventListener('click', addLikesAll);
+
+likeButtonMobileTop.addEventListener('click', addLikesAll);
+
+likeButtonMobileFooter.addEventListener('click', addLikesAll);
 
 
 //функция закрытия popup
@@ -69,5 +85,14 @@ $(window).scroll(function() {
         $(".header__scroll").addClass("header__scroll_active");
     } else {
         $(".header__scroll").removeClass("header__scroll_active");
+    }
+});
+
+//скролл header
+$(window).scroll(function() {
+    if ($(document).scrollTop() > 250) {
+        $(".footer").addClass("footer_active");
+    } else {
+        $(".footer").removeClass("footer_active");
     }
 });

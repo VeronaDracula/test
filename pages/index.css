@@ -74,6 +74,7 @@
 @import url(../blocks/actions/__header-options/actions__header-options.css);
 
 @import url(../blocks/offer/offer.css);
+@import url(../blocks/offer/_type/offer_type_footer.css);
 @import url(../blocks/offer/__menu/offer__menu.css);
 @import url(../blocks/offer/__menu-icon/offer__menu-icon.css);
 @import url(../blocks/offer/__menu-icon/_active/offer__menu-icon_active.css);
@@ -163,6 +164,9 @@
 @import url(../blocks/job-preferences/__time-list/job-preferences__time-list.css);
 @import url(../blocks/job-preferences/__time-list-item/job-preferences__time-list-item.css);
 @import url(../blocks/job-preferences/__time-list-answer/job-preferences__time-list-answer.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/_active/footer_active.css);
 
 
 
