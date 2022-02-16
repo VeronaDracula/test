@@ -1,0 +1,7 @@
+.header__scroll {
+    display: none;
+    padding-left: 11px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    height: 48px;
+}

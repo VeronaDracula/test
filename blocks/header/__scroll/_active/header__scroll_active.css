@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+    .header__scroll_active {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background: #FFFFFF;
+        z-index: 20;
+        position: fixed;
+        top: 0;
+    }
+}

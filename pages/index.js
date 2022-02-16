@@ -62,3 +62,12 @@ function openPopup (popup){
 popupNotesOpenButton.addEventListener('click', () => openPopup(popupNotes));
 popupNotesCloseButton.addEventListener('click', () => closePopup(popupNotes));
 popupNotes.addEventListener('click', closePopupByClickOverlay);
+
+//скролл header
+$(window).scroll(function() {
+    if ($(document).scrollTop() > 150) {
+        $(".header__scroll").addClass("header__scroll_active");
+    } else {
+        $(".header__scroll").removeClass("header__scroll_active");
+    }
+});
