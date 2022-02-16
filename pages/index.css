@@ -60,6 +60,10 @@
 @import url(../blocks/experience-item/__list-item/experience-item__list-item.css);
 @import url(../blocks/experience-item/__list-link/experience-item__list-link.css);
 
+@import url(../blocks/portfolio/__carousel-box/portfolio__carousel-box.css);
+@import url(../blocks/portfolio/__carousel-arr-left/portfolio__carousel-arr-left.css);
+@import url(../blocks/portfolio/__carousel-arr-right/portfolio__carousel-arr-right.css);
+
 @import url(../blocks/salary/salary.css);
 
 @import url(../blocks/actions/actions.css);

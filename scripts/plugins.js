@@ -14,21 +14,25 @@ jQuery(document).ready(function() {
 $(function() {
     var owl=$(".portfolio__carousel");
     owl.owlCarousel({
-        // loop: true,
+        loop: true,
         // autoplay: true,
+        // center: true,
+        margin: 10,
         responsive:{
             0: {
-                items: 4
+                items: 4,
+                stagePadding: 50,
             }
-        }
+        },
+
     });
 
-    // $(".banner-carousel__carousel-button_type_next").click(function(){
-    //     owl.trigger("next.owl.carousel");
-    // });
-    // $(".banner-carousel__carousel-button_type_prev").click(function(){
-    //     owl.trigger("prev.owl.carousel");
-    // });
+    $(".portfolio__carousel-arr-right").click(function(){
+        owl.trigger("next.owl.carousel");
+    });
+    $(".portfolio__carousel-arr-left").click(function(){
+        owl.trigger("prev.owl.carousel");
+    });
 });
 
 jQuery(document).ready(function($){
