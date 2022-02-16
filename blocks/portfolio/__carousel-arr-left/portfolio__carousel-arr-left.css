@@ -10,3 +10,9 @@
     transform: translateY(-50%);
     left: -23px;
 }
+
+@media screen and (max-width: 768px) {
+    .portfolio__carousel-arr-left {
+        display: none;
+    }
+}

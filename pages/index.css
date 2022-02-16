@@ -62,6 +62,7 @@
 @import url(../blocks/experience-item/__list-item/experience-item__list-item.css);
 @import url(../blocks/experience-item/__list-link/experience-item__list-link.css);
 
+@import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/portfolio/__carousel-box/portfolio__carousel-box.css);
 @import url(../blocks/portfolio/__carousel-arr-left/portfolio__carousel-arr-left.css);
 @import url(../blocks/portfolio/__carousel-arr-right/portfolio__carousel-arr-right.css);
@@ -106,6 +107,7 @@
 @import url(../blocks/history/__list-item-text/history__list-item-text.css);
 @import url(../blocks/history/__list-item-title/history__list-item-title.css);
 @import url(../blocks/history/__list-item-subtitle/history__list-item-subtitle.css);
+@import url(../blocks/history-mobile/history-mobile.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_is-opened/popup_is-opened.css);
