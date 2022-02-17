@@ -81,8 +81,13 @@
 @import url(../blocks/offer/__like/offer__like.css);
 @import url(../blocks/offer/__like/_active/offer__like_active.css);
 @import url(../blocks/offer/__list/offer__list.css);
+@import url(../blocks/offer/__list/_type/offer__list_type_mobile.css);
 @import url(../blocks/offer/__list-item/offer__list-item.css);
 @import url(../blocks/offer/__list-item-img/offer__list-item-img.css);
+
+@import url(../blocks/offer/__list-item/_type/offer__list-item_type_mobile.css);
+@import url(../blocks/offer/__list-close-mobile-btn/offer__list-close-mobile-btn.css);
+@import url(../blocks/offer/__list-item-img/_type/offer__list-item-img_type_mobile.css);
 
 @import url(../blocks/video-interview/video-interview.css);
 @import url(../blocks/video-interview/__icon/video-interview__icon.css);
@@ -113,6 +118,7 @@
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_is-opened/popup_is-opened.css);
 @import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__container/_type/popup__container_type_vacancy.css);
 @import url(../blocks/popup/__title/popup__title.css);
 
 @import url(../blocks/form/form.css);

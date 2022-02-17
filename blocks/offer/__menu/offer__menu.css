@@ -27,3 +27,10 @@
     display: block;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .offer__menu:hover ~ .offer__list {
+        display: none;
+        cursor: pointer;
+    }
+}

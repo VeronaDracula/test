@@ -11,8 +11,15 @@ const offerButtonCheckMobileTop = document.querySelector('.offer__menu-icon_type
 const offerButtonCheckMobileFooter = document.querySelector('.offer__menu-icon_type_mobile-footer');
 //закрытие и открытие попапов
 const popupNotes = document.querySelector('.popup_type_notes');
-const popupNotesOpenButton = document.querySelector('.actions-list__item-link');
+const popupNotesOpenButton = document.querySelector('.actions-list__item-link_type_notes');
+const popupNotesOpenButtonMobile = document.querySelector('.actions-list__item-link_type_notes-mobile');
+const popupNotesOpenButtonScroll = document.querySelector('.actions-list__item-link_type_notes-scroll');
 const popupNotesCloseButton = document.querySelector('.form__button_type_cancel');
+
+const popupVacancy = document.querySelector('.popup_type_vacancy');
+const popupVacancyOpenButton = document.querySelector('.offer__menu_type_mobile');
+const popupVacancyOpenButtonScroll = document.querySelector('.offer__menu_type_footer');
+const popupVacancyCloseButton = document.querySelector('.offer__list-close-mobile-btn');
 
 
 //выпадающий список
@@ -41,9 +48,7 @@ function addLikesAll () {
 }
 
 likeButtonDesktop.addEventListener('click', addLikesAll);
-
 likeButtonMobileTop.addEventListener('click', addLikesAll);
-
 likeButtonMobileFooter.addEventListener('click', addLikesAll);
 
 
@@ -76,8 +81,15 @@ function openPopup (popup){
 }
 
 popupNotesOpenButton.addEventListener('click', () => openPopup(popupNotes));
+popupNotesOpenButtonMobile.addEventListener('click', () => openPopup(popupNotes));
+popupNotesOpenButtonScroll.addEventListener('click', () => openPopup(popupNotes));
 popupNotesCloseButton.addEventListener('click', () => closePopup(popupNotes));
 popupNotes.addEventListener('click', closePopupByClickOverlay);
+
+popupVacancyOpenButton.addEventListener('click', () => openPopup(popupVacancy));
+popupVacancyOpenButtonScroll.addEventListener('click', () => openPopup(popupVacancy));
+popupVacancyCloseButton.addEventListener('click', () => closePopup(popupVacancy));
+popupVacancy.addEventListener('click', closePopupByClickOverlay);
 
 //скролл header
 $(window).scroll(function() {
