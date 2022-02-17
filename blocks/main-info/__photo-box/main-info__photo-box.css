@@ -1,5 +1,6 @@
 .main-info__photo-box {
     width: 100px;
+    min-width: 100px;
     height: 100px;
     margin-right: 19px;
     overflow: hidden;

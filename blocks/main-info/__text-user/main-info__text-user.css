@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 790px) {
+@media screen and (min-width: 768px) and (max-width: 792px) {
     .main-info__text-user {
         font-size: 14px;
         line-height: 20px;
