@@ -1,3 +1,9 @@
 .portfolio__carousel-box {
     position: relative;
 }
+
+.owl-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

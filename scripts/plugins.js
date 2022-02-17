@@ -19,13 +19,59 @@ $(function() {
         responsive:{
             0: {
                 items: 2,
-                stagePadding: 20,
+                stagePadding: 0,
             },
-            768: {
+
+            425: {
+                items: 2,
+                stagePadding: 50,
+            },
+
+            466: {
+                items: 2,
+                stagePadding: 70,
+            },
+
+            554: {
+                items: 2,
+                stagePadding: 100,
+            },
+
+            622: {
+                items: 3,
+                stagePadding: 70,
+            },
+
+            730: {
                 items: 4,
                 stagePadding: 50,
             },
-            1260: {
+
+            769: {
+                items: 2,
+                stagePadding: 50,
+            },
+
+            845: {
+                items: 2,
+                stagePadding: 100,
+            },
+
+            923: {
+                items: 3,
+                stagePadding: 70,
+            },
+
+            1025: {
+                items: 2,
+                stagePadding: 100,
+            },
+
+            1120: {
+                items: 3,
+                stagePadding: 70,
+            },
+            1237: {
                 items: 4,
                 stagePadding: 50,
             }
@@ -49,6 +95,7 @@ jQuery(document).ready(function($){
         toolbar: false,
         animationEffect: "fade",
         animationDuration: 600,
+        // imageScale: false,
         btnTpl: {
             smallBtn: '<button data-fancybox-close class="popup-photo__btn-close"></button>',
             arrowRight: '<button data-fancybox-next class="fancybox-button fancybox-button--arrow_right popup-photo__btn-right"></button>',
