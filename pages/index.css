@@ -17,7 +17,9 @@
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__header/info__header.css);
 @import url(../blocks/main-info/main-info.css);
+@import url(../blocks/main-info/__photo-box/main-info__photo-box.css);
 @import url(../blocks/main-info/__photo/main-info__photo.css);
+@import url(../blocks/main-info/__photo-indicator/main-info__photo-indicator.css);
 @import url(../blocks/main-info/__text-name/main-info__text-name.css);
 @import url(../blocks/main-info/__text/main-info__text.css);
 @import url(../blocks/main-info/__text-user/main-info__text-user.css);

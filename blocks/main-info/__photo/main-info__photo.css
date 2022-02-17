@@ -1,14 +1,11 @@
 .main-info__photo {
     width: 100px;
     height: 100px;
-    margin-right: 19px;
 }
 
 @media screen and (max-width: 768px) {
     .main-info__photo {
         width: 100px;
         height: 100px;
-        margin-right: 0;
-        margin-bottom: 10px;
     }
 }
