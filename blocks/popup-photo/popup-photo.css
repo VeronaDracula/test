@@ -25,16 +25,49 @@
     background: rgba(229, 229, 229, 0.5);
 }
 
-
-
-@media screen and (min-width: 1025px) {
-    .fancybox-infobar {
-        display: none;
-    }
-}
-
 .fancybox-infobar {
     visibility: visible;
     opacity: 1;
     transition: none;
 }
+
+.fancybox-infobar {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .popup-photo {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .fancybox-content {
+        box-shadow: none;
+        border-radius: 0;
+        background: #000;
+    }
+
+    .fancybox-slide--html {
+        padding: 0;
+    }
+
+    .fancybox-infobar {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+
+        width: 100%;
+        height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(27, 28, 30, 0.75);
+    }
+}
+

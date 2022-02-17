@@ -80,6 +80,7 @@ function openPopup (popup){
     document.addEventListener('keydown', closeByEsc);
 }
 
+//события попапов
 popupNotesOpenButton.addEventListener('click', () => openPopup(popupNotes));
 popupNotesOpenButtonMobile.addEventListener('click', () => openPopup(popupNotes));
 popupNotesOpenButtonScroll.addEventListener('click', () => openPopup(popupNotes));
@@ -100,7 +101,7 @@ $(window).scroll(function() {
     }
 });
 
-//скролл header
+//скролл footer
 $(window).scroll(function() {
     if ($(document).scrollTop() > 250) {
         $(".footer").addClass("footer_active");

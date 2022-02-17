@@ -141,6 +141,7 @@
 @import url(../blocks/popup-photo/__btn-right/popup-photo__btn-right.css);
 @import url(../blocks/popup-photo/__btn-left/popup-photo__btn-left.css);
 @import url(../blocks/popup-photo/__img/popup-photo__img.css);
+@import url(../blocks/popup-photo/__img-box/popup-photo__img-box.css);
 @import url(../blocks/popup-photo/__text/popup-photo__text.css);
 @import url(../blocks/popup-photo/__title/popup-photo__title.css);
 @import url(../blocks/popup-photo/__subtitle/popup-photo__subtitle.css);

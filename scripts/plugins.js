@@ -14,8 +14,9 @@ jQuery(document).ready(function() {
 $(function() {
     var owl=$(".portfolio__carousel");
     owl.owlCarousel({
-        loop: true,
+        //
         margin: 10,
+        loop: false,
         responsive:{
             0: {
                 items: 2,
@@ -93,14 +94,13 @@ jQuery(document).ready(function($){
         loop: false,
         infobar: true,
         toolbar: false,
+        gutter:0,
         animationEffect: "fade",
-        animationDuration: 600,
-        // imageScale: false,
+        animationDuration: 500,
         btnTpl: {
             smallBtn: '<button data-fancybox-close class="popup-photo__btn-close"></button>',
             arrowRight: '<button data-fancybox-next class="fancybox-button fancybox-button--arrow_right popup-photo__btn-right"></button>',
             arrowLeft: '<button data-fancybox-prev class="fancybox-button fancybox-button--arrow_left popup-photo__btn-left"></button>'
         },
-
     });
 });

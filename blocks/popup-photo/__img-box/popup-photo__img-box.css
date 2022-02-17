@@ -1,0 +1,18 @@
+.popup-photo__img-box {
+    height: 341px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-radius: 16px 16px 0 0;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .popup-photo__img-box {
+        height: 100%;
+        padding-bottom: 0;
+        border-radius: 0;
+    }
+}
