@@ -88,6 +88,7 @@ $(function() {
     });
 });
 
+//галерея
 jQuery(document).ready(function($){
     $('[data-fancybox]').fancybox({
         buttons: false,
