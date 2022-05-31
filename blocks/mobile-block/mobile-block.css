@@ -1,9 +1,0 @@
-.mobile-block {
-    display: none;
-}
-
-@media screen and (max-width: 768px) {
-    .mobile-block {
-        display: flex;
-    }
-}

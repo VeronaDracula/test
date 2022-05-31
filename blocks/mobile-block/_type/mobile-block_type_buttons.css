@@ -1,8 +1,0 @@
-@media screen and (max-width: 768px) {
-    .mobile-block_type_buttons {
-        box-shadow: inset 0 -1px 0 #EEF2F4;
-        margin-bottom: 40px;
-        flex-direction: column;
-        align-items: center;
-    }
-}

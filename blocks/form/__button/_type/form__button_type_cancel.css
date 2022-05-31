@@ -1,9 +1,0 @@
-.form__button_type_cancel {
-    background: #EEF2F4;
-    color: #606483;
-    margin-right: 16px;
-}
-
-.form__button_type_cancel:hover {
-    opacity: 0.7;
-}
